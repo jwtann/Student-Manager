@@ -1,0 +1,25 @@
+{
+    "name": "admin/0529",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "root",
+            "email": "503132053@qq.com"
+        }
+    ],
+    "require": {
+        "gregwar/captcha": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app",
+            "core\\":"core",
+            "system\\":"system"
+        },
+        "files": [
+            "system/functions.php",
+            "system/config/database.php"
+        ]
+    }
+}
